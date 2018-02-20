@@ -7,17 +7,17 @@ exercise.salary = null;
 exercise.load = function(salary, boston){
     exercise.salaries = boston.data;
     exercise.salary = salary;
+    //salary is a number
 };
 
 // get salaries larger than given salary
 exercise.findBiggerSalaries = function(){
     var num_salaries = 0;
-    var dataLength = exercise.data.data.length;
-    var currentSal = 0;
-    for (var i = 0; i < dataLength; i++){
-        if(Number(exercise.data.data[i][18]) >salary){(num_salaries += 1)  
+    var dataLength = exercise.salaries.length;
+    for (var i = 0; i < dataLength; i++) {
+        if(Number(exercise.salaries[i] >salary){(num_salaries += 1) &&
+            exercise.salaries.push(i);
         }
-    } 
     // ---------------------------------------------------
     //   YOUR CODE
     //
@@ -26,12 +26,14 @@ exercise.findBiggerSalaries = function(){
     //
     //     Example: salaries larger than 300K is 8
     // ---------------------------------------------------
-
+        return num_salaries; 
 };
 
-// filter function
 exercise.largerSalary = function largerSalary(item){
 
+    {Boolean(exercise.salaries[i]>salary)}
+
+   }
     // ---------------------------------------------------
     //   YOUR CODE
     //
