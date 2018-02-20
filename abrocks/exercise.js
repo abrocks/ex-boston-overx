@@ -12,17 +12,17 @@ exercise.load = function(salary, boston){
 
 // get salaries larger than given salary
 exercise.findBiggerSalaries = function(){
-    var num_salaries = 0;
+    var myList= [];
     var dataLength = exercise.salaries.length;
     for (var i = 0; i < dataLength; i++) {
-       if(Number(exercise.salaries[i]) > salary){num_salaries += 1
+       if(Number(exercise.salaries[i][18]) > salary){myList.push(exercise.salaries[i][18])
     }
        // if(exercise.largerSalary (item) === "TRUE"){
          //   return exercise.salaries[i]
         //;}
 
    
-    return num_salaries;
+    return myList;
     // ---------------------------------------------------
     //   YOUR CODE
     //
