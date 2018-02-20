@@ -15,7 +15,7 @@ exercise.findBiggerSalaries = function(){
     var num_salaries = 0;
     var dataLength = exercise.salaries.length;
     for (var i = 0; i < dataLength; i++) {
-        if(Number(exercise.salaries[i] >salary){(num_salaries += 1) &&
+        if(Number(exercise.salaries[i] >salary)){(num_salaries += 1) &&
             exercise.salaries.push(i);
         }
     // ---------------------------------------------------
