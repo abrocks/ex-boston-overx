@@ -17,7 +17,7 @@ exercise.findBiggerSalaries = function(){
     //for (var i = 0; i < dataLength; i++) {
       //  if(Number(exercise.salaries[i]) > salary){num_salaries += 1
         //}
-        if(exercise.largerSalary=== "TRUE"){
+        if(exercise.largerSalary (item) === "TRUE"){
             return exercise.salaries[i]
         ;}
 
@@ -35,7 +35,7 @@ exercise.findBiggerSalaries = function(){
 
 exercise.largerSalary = function largerSalary(item){
     var item = exercise.salaries[i];
-    dataLength = exercise.salaries.data.Length;
+    dataLength = exercise.salaries.length;
     for (var i = 0; i < dataLength; i++) {return Boolean(item>salary)};
     // ---------------------------------------------------
     //   YOUR CODE
