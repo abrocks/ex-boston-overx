@@ -20,7 +20,7 @@ exercise.findBiggerSalaries = function(){
        // if(exercise.largerSalary (item) === "TRUE"){
          //   return exercise.salaries[i]
         //;}
-
+    };
    
     return myList;
     // ---------------------------------------------------
